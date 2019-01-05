@@ -1,6 +1,6 @@
 /*----------------------|
 / Author : Ashraf Tasin |
-/ Date   :   02.10.18   |
+/ Date   :   04.01.19   |
 /----------------------*/
 
 #include<bits/stdc++.h>
@@ -9,7 +9,10 @@
 #define ll long long
 #define all v.begin(),v.end()
 #define M it=m.begin(),it!=m.end(),it++
+#define flash ios :: sync_with_stdio(false); cin.tie(0); cout.tie(0);
 #define db double
+#define endl "\n"
+#define mnm pair<int,int>, vector<pair<int,int>>, greater<pair<int,int>>
 #define show for(int i=0;i<v.size();i++) cout << v[i];
 using namespace std;
 
@@ -31,8 +34,11 @@ int y[] = {-1, 0, 1, 0}; */
 
 
 
+
 int main()
 {
+    flash
+
     map<char,int> m;
 
     m.insert(pair<char,int>('+',1));
@@ -43,6 +49,7 @@ int main()
 
     int tc;
     cin >> tc;
+
     while(tc--)
     {
         string a,b="(",c=")";
